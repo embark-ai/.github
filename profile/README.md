@@ -14,10 +14,12 @@ Smart account infrastructure for Web3 — Account Abstraction (ERC-4337) with MP
 
 ```bash
 # Backend
-npm install @embarkai/core viem dkls23-wasm
+npm install @embarkai/core viem
+# server wallets (DKG and signing) also need the TSS WASM module
+npm install dkls23-wasm
 
 # Frontend (React)
-npm install @embarkai/ui-kit
+npm install @embarkai/ui-kit @tanstack/react-query i18next react-i18next
 
 # AI Agents (Claude Code / Claude Desktop)
 npm install @embarkai/mcp
